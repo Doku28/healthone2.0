@@ -14,8 +14,8 @@ class AdminController extends AbstractController
      * @Route ("/", name="homepage")
      */
     public function homepageAction(){
-        return new response("<h1>Welkom<h1>");
-        return $this->render('admin/')
+//        return new response("<h1>Welkom<h1>");
+        return $this->render('admin/homepage.html.twig');
     }
 
 }
